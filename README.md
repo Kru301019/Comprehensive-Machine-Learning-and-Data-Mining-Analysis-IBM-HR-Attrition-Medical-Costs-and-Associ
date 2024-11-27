@@ -16,9 +16,9 @@ The goal is to apply appropriate machine learning techniques, optimize models, a
 actionable insights for decision-making.
 
 # Datasets
-## IBM HR Attrition Dataset: Contains features such as age, work experience, job level, overtime status, and attrition.
-## Medical Cost Dataset: Includes demographic and lifestyle features (e.g., age, BMI, smoking status) and the target variable, charges.
-## Customer Viewing Dataset: Contains viewing preferences for various shows.
+<sub> IBM HR Attrition Dataset: Contains features such as age, work experience, job level, overtime status, and attrition.
+Medical Cost Dataset: Includes demographic and lifestyle features (e.g., age, BMI, smoking status) and the target variable, charges.
+Customer Viewing Dataset: Contains viewing preferences for various shows.<sub>
 
 # Part 1: IBM HR Attrition Case Study
 ## Objective
