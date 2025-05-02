@@ -28,18 +28,19 @@ An end-to-end data science project analyzing employee attrition patterns and bui
 IBM-HR-Attrition/
 │
 ├── data/
-│ ├── IBM_HR_Employee_Attrition.csv # Raw dataset
-│ ├── processed_data.joblib # Cleaned/preprocessed data
-│ └── training.joblib # Final training dataset
+│ ├── IBM_HR_Employee_Attrition.csv      # Raw dataset
+│ ├── processed_data.joblib             # Cleaned/preprocessed data
+│ └── training.joblib                   # Final training dataset
 │
 ├── notebooks/
-│ ├── 1_Data_Cleaning.ipynb # Data preprocessing notebook
-│ ├── 2_Exploratory_Analysis.ipynb # EDA and visualization
-│ └── 3_Model_Training.ipynb # Model development notebook
+│ ├── 1_Data_Cleaning.ipynb             # Data preprocessing notebook
+│ ├── 2_Exploratory_Analysis.ipynb      # EDA and visualization
+│ └── 3_Model_Training.ipynb            # Model development notebook
 │
 ├── models/
-│ └── rf_model.joblib # Trained Random Forest model
+│ └── rf_model.joblib                   # Trained Random Forest model
 │
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
+
 
