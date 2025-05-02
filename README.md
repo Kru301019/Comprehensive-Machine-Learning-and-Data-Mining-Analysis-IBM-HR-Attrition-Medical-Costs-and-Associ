@@ -25,19 +25,21 @@ An end-to-end data science project analyzing employee attrition patterns and bui
 - **Deployment**: Joblib (model serialization)
 
 ## Repository Structure
-└── IBM-HR-Attrition/
-    ├── 📂 data/
-    │   ├── IBM_HR_Employee_Attrition.csv
-    │   ├── processed_data.joblib
-    │   └── training.joblib
-    │
-    ├── 📂 notebooks/
-    │   ├── 1_Data_Cleaning.ipynb
-    │   ├── 2_Exploratory_Analysis.ipynb
-    │   └── 3_Model_Training.ipynb
-    │
-    ├── 📂 models/
-    │   └── rf_model.joblib
-    │
-    ├── requirements.txt
-    └── README.md
+IBM-HR-Attrition/
+│
+├── data/
+│ ├── IBM_HR_Employee_Attrition.csv # Raw dataset
+│ ├── processed_data.joblib # Cleaned/preprocessed data
+│ └── training.joblib # Final training dataset
+│
+├── notebooks/
+│ ├── 1_Data_Cleaning.ipynb # Data preprocessing notebook
+│ ├── 2_Exploratory_Analysis.ipynb # EDA and visualization
+│ └── 3_Model_Training.ipynb # Model development notebook
+│
+├── models/
+│ └── rf_model.joblib # Trained Random Forest model
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
