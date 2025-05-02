@@ -1,41 +1,36 @@
-# Comprehensive Machine Learning and Data Mining Analysis: IBM HR Attrition, Medical Costs, and Association Rule Mining
+# IBM HR Attrition: Data Analysis & Predictive Modeling
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-orange)
+![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-brightgreen)
 
-This project involves the application of machine learning and data mining techniques across three unique datasets to solve real-world business problems. The analyses focus on understanding employee attrition, predicting medical insurance costs, and identifying associations between customer viewing preferences.
+An end-to-end data science project analyzing employee attrition patterns and building a predictive model using IBM HR data.
 
-## Introduction
+## Key Insights
+- 🚨 **Overtime employees have 3x higher attrition** (30.5% vs 10.4%)
+- 📊 **Entry-level (JobLevel 1) most vulnerable** (40% attrition for overtime workers)
+- ⚖️ **Work-life balance matters**: 89.6% retention for standard-schedule employees
 
-This project demonstrates the use of supervised and unsupervised machine learning techniques, as well as association rule mining, to derive meaningful insights from three datasets:
+## Model Performance
+| Metric          | Score |
+|-----------------|-------|
+| Accuracy        | 81%   |
+| Recall (Leavers)| 68%   |
+| F1-Score        | 43%   |
 
-- **IBM HR Attrition Dataset**: K-means clustering and DBSCAN clustering predict employee attrition.
-- **Medical Cost Dataset**: A regression task to predict health insurance charges.
-- **Customer Viewing Dataset**: An association rule mining task to identify viewer preferences.
+## Tech Stack
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn
+- **Modeling**: Scikit-learn (Random Forest)
+- **Deployment**: Joblib (model serialization)
 
-The goal is to apply appropriate machine learning techniques, optimize models, and provide actionable insights for decision-making.
-
-## Datasets
-
-- **IBM HR Attrition Dataset**: Contains features such as age, work experience, job level, overtime status, and attrition.
-- **Medical Cost Dataset**: Includes demographic and lifestyle features (e.g., age, BMI, smoking status) and the target variable, charges.
-- **Customer Viewing Dataset**: Contains viewing preferences for various shows.
-
-## Part 1: IBM HR Attrition Case Study
-
-### Objective
-Predict employee attrition and identify key factors influencing it.
-
-### Techniques
-- **Data Preprocessing**: Conversion of categorical features into numerical, removal of low-correlation features.
-- **Visualization**: Box plots, bar plots, and correlation heatmaps to identify key factors such as overtime and salary.
-
-### Classification Models:
-- **Random Forest**: Achieved 86.14% accuracy.
-- **K-Nearest Neighbors (KNN)**: Achieved 84.51% accuracy.
-- **Support Vector Machine (SVM)**: Achieved 86% accuracy.
-- **Clustering**: Applied k-means and DBSCAN clustering to identify employee groups based on income and tenure.
-
-
-## Requirements
-- **Python 3.7** or higher
-- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `mlxtend`
+## Repository Structure
+/IBM-HR-Attrition/
+│ IBM_HR_Employee_Attrition.csv
+│ processed_data.joblib
+| training.joblib
+├── notebooks/ # Jupyter notebooks
+│ ├── 1_Data_Cleaning.ipynb
+│ ├── 2_Exploratory_Analysis.ipynb
+│ └── 3_Model_Training.ipynb
+└── README.md
