@@ -1,0 +1,10 @@
+# Ignore all CSV files
+*.csv
+
+# Virtual Environments
+myenv/
+
+# Ignore serialized data files
+*.joblib
+*.pkl
+*.pickle
